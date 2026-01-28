@@ -1,0 +1,59 @@
+body{
+    background-image: url(slike/pozadina.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: inter;
+
+}
+h1{
+    font-family:InesBilic;
+    color: white;
+    font-size: 100px;
+    margin: 0px;
+
+}
+
+h2{
+    color: aquamarine;
+    font-size: 70px;
+    margin: 0;
+}
+
+h3{
+    color: rgb(30, 124, 53);
+}
+
+p{
+    font-size: 20px;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 50px;
+}
+
+.hero{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 427px 120px 100px;
+    margin-top: 100px;
+}
+
+a{
+    display: inline-flex;
+    padding: 15px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: rgb(166, 166, 252);
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: inter;
+    
+}
